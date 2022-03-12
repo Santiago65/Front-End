@@ -566,7 +566,7 @@ progress {
 }
 
 .list-inline {
-  padding-left: 0;
+  padding-left:0;
   list-style: none;
 }
 
@@ -574,7 +574,7 @@ progress {
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 
 .initialism {
@@ -5021,7 +5021,7 @@ textarea.form-control-lg {
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
-  background-color: #e9ecef;
+  background-color: gainsboro;
   border-radius: 0.25rem;
 }
 
@@ -11420,4 +11420,9 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.progress-bar{
+
+  background-color: blueviolet;
+  color:var(--bs-gray-100);
 }
